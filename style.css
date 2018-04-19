@@ -104,6 +104,12 @@ tbody {
     text-align: center;
 }
 
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 @media (min-width: 768px){
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 5px;
